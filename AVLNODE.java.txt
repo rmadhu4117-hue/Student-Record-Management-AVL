@@ -1,0 +1,11 @@
+public class AVLNode {
+    Student student;
+    AVLNode left;
+    AVLNode right;
+    int height;
+
+    AVLNode(Student student) {
+        this.student = student;
+        this.height = 1;
+    }
+}
